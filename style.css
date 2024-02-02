@@ -1,0 +1,125 @@
+body, html {
+    height: 100%; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    font-family: Arial, sans-serif;
+    background-image: url("assets/background.png");
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+#task-container {
+    width: 80%;
+    max-width: 800px; 
+    padding: 20px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    opacity: 97%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap; 
+    text-overflow: ellipsis;
+}
+
+th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+table {
+    border: 2px solid #ddd;
+    text-align: center;
+}
+
+
+#task-inputs {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#task-inputs input[type="text"],
+#task-inputs input[type="date"] {
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#add-task-btn {
+    padding: 8px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.edit-btn {
+    padding: 8px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.delete-btn {
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #ca0000;
+    cursor: pointer;
+    border: none;
+    
+}
+
+.delete-btn img {
+    height: 80%;
+    
+}
+
+.delete-btn {
+    display: inline-block; 
+    margin : 5px;
+}
+
+#add-task-btn img{
+    height: 10px;  
+    width: auto;   
+}
+
+h1{
+    text-align: center;
+}
+
+@media screen and (max-width: 400px) {
+    .consult-btn {
+        padding: 5px;
+    }
+}
